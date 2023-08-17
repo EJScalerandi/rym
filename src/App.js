@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Routes, Route, useLocation, useNavigate} from 'react-router-dom';
 import './App.css';
 import Cards from './components/Cards/Cards.jsx';

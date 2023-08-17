@@ -8,6 +8,7 @@ import Nav from './components/Nav/Nav';
 import About from './components/About/About';
 import Detail from './components/Detail/Detail';
 import Form from './components/Form/Form';
+import Favorites from './components/Favorites/Favortes';
 
 // const example = {
 //   name: 'Morty Messi',
@@ -31,7 +32,7 @@ function App () {
        navigate('/home');
     }
     else{
-      alert('ADONDE????? :(')
+      alert("Proporciona la info correcta")
     }
   }
 
@@ -78,7 +79,7 @@ function App () {
         <Route path='/about' element={<About/>} />
 
         {/* RUTA DETAIL */}
-        <Route path='/detail/:detailId' element={<Detail />} />
+        <Route path='/Favorites' element={<Favorites />} />
 
       </Routes>
       <div>

@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <p>this is the aboutest of all abouts</p>
+      <p>Este es el rick and morty de teten</p>
     </div>
   );
 };
